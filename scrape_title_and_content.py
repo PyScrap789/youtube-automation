@@ -71,7 +71,7 @@ def scrape_subreddit_content(subreddit, limit = 10, comment_limit = 10):
 
         posts.append(post_content)
 
-        screenshot_post.screenshot_posts_and_comments(post.get("data-url"), post_count, limit)
+        screenshot_post.screenshot_post(post.get("data-url"), post_count, limit)
 
         post_count += 1
     

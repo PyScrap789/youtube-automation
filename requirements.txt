@@ -1,0 +1,5 @@
+pathlib2
+beautifulsoup4
+yapper-tts
+moviepy
+selenium
